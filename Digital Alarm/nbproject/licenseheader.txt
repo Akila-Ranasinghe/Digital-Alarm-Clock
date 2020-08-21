@@ -1,0 +1,10 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Copyright (c) ${date?date?string("yyyy")}  Akila Ranasinghe </ SPYD3R-X >
+${licensePrefix}All rights reserved.
+${licensePrefix}GitHub: https://github.com/SPYD3R-X
+${licensePrefix}${date?date?string("dd MMM yyyy")} ${time?time?string("hh:mm:ss a")} By ${project.organization!user}.
+<#if licenseLast??>
+${licenseLast}
+</#if>
